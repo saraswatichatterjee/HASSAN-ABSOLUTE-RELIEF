@@ -186,7 +186,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Peripheral areas show high absolute relief index in red/orange indicating steep elevation changes, while central areas show low index in blue indicating flat, low-lying terrain.';
+                this._div.innerHTML = 'Blue areas have high Absolute Relief meaning high elevation above mean sea level with mountainous terrain, while red areas have low Absolute Relief meaning low elevation close to mean sea level with plains terrain.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
