@@ -53,7 +53,7 @@ html, body, #map {
     <body>
 
 <div id="titlebar">
-    HASSAN ABSOLUTE RELIEF
+    HASSAN - ABSOLUTE RELIEF
 </div>
 
 <div id="map">
@@ -164,7 +164,7 @@ title.onAdd = function (map) {
     return this._div;
 };
 title.update = function () {
-    this._div.innerHTML = '<h2>HASSAN ABSOLUTE RELIEF</h2>';
+    this._div.innerHTML = '<h2>HASSAN  ABSOLUTE  RELIEF</h2>';
 };
 title.addTo(map);
 
@@ -345,9 +345,9 @@ abstract.hide = function () {
         bounds_group.addLayer(layer_Hassan_bound_3);
         map.addLayer(layer_Hassan_bound_3);
         var overlaysTree = [
-            {label: '<img src="legend/Hassan_bound_3.png" /> Hassan_bound', layer: layer_Hassan_bound_3},
-            {label: "idw_ar", layer: layer_idw_ar_2},
-            {label: '<img src="legend/MEGADATA_1.png" /> MEGADATA', layer: layer_MEGADATA_1},
+            {label: '<img src="legend/Hassan_bound_3.png" /> Hassan', layer: layer_Hassan_bound_3},
+            {label: "AR", layer: layer_idw_ar_2},
+            {label: '<img src="legend/MEGADATA_1.png" /> DATA', layer: layer_MEGADATA_1},
             {label: "OSM Standard", layer: layer_OSMStandard_0},]
         var lay = L.control.layers.tree(null, overlaysTree,{
             //namedToggle: true,
